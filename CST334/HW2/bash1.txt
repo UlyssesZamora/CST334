@@ -1,0 +1,32 @@
+# Instructions: edit this file to provide your homework answers.
+#
+# Problem numbers are shown on lines that begin with #@.
+# Please put your solution to a problem on the line *after* the
+# line with the problem number.
+#
+# Do not modify this file *except* to add lines as needed after each problem.
+# Blank lines are ignored.  You don't need to put your name in the file.
+#
+# No points will be awarded to incorrectly-formatted files.
+#
+
+#@ 1 -- enter the full command on a single line
+ls *.txt
+#@ 2 -- enter the full command on a single line
+ls -l /home/CLASSES
+#@ 3 -- enter the full command on a single line
+rm ../*.py
+#@ 4 -- enter the full command on a single line
+mv grades.csv grades-old.csv
+#@ 5 -- enter the full command on a single line
+cp foo.txt archive
+#@ 6 -- enter the full command on a single line
+head -3 msh.c
+#@ 7 -- enter the full command on a single line
+mkdir ~/cst334
+#@ 8 -- enter the full command on a single line
+pwd
+#@ 9 -- enter the full command on a single line
+cd bar/foo
+#@ 10 -- enter the full command on a single line
+rm -r old-memes

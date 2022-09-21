@@ -1,0 +1,19 @@
+#
+# Intro to Operating Systems answer sheet.
+#
+# Problem lines begin with #@.
+# For each problem, put your answer on
+# the line following the problem line.
+# Do not modify this file in any way 
+# except to insert your answers.
+
+#@ 1 -- enter 'a', 'b', or 'c' (don't use quotes in any answer)
+c
+#@ 2 -- enter 'a', 'b', or 'c'
+b
+#@ 3 -- enter one or more letters, separated by commas
+b,d
+#@ 4 -- enter 'a', 'b', or 'c'
+b
+#@ 5 -- enter 'a', 'b', or 'c'
+b
