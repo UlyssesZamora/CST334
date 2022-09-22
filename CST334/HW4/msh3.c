@@ -16,6 +16,7 @@
 
 int main() {
     int ch;
+    int counter = 0;
     int i;
     char *pos;
     char *tok;
@@ -57,6 +58,7 @@ int main() {
         while ((tok = strtok_r(rest, " ", &rest)) != NULL && i < MAX_TOKS) {
             toks[i] = tok;
             i++;
+            counter++;
         }
         if (i == MAX_TOKS) {
             printf("error: too many tokens\n");
@@ -89,8 +91,8 @@ int main() {
         }
 
         if(strcmp(toks[0], "cd") == 0) {
-            int size = sizeof(toks) / sizeof(toks[0]);
-            if(size == 1)
+            printf("%d", counter);
+            if(counter == 1)
                 chdir(getenv("HOME"));
             else
                 chdir(toks[1]);
