@@ -88,6 +88,15 @@ int main() {
             continue;
         }
 
+        if(strcmp(toks[0], "cd") == 0) {
+            int size = sizeof(toks) / sizeof(toks[0]);
+            if(size == 1)
+                chdir(getenv("HOME"));
+            else
+                chdir(toks[1]);
+            continue;
+        }
+
         // otherwise fork a process to run the command
         int rc = fork();
         if (rc < 0) {
